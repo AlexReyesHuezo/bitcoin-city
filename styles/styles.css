@@ -9,3 +9,27 @@
     9. Miscelaenous
     10. Media Queries
 */
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+:root {
+    --bitcoin: #f7931a;
+    --bitcoin-light: #f8a745;
+    --surf: #219ebc;
+    --surf-light: #8ecae6;
+    --volcano: #137547;
+    --volcano-light: #4e9875;
+    --black: #212529;
+    --dark: #495057;
+    --gray: #dee2e6;
+    --white: #f8f9fa;
+}
+
+html {
+    font-size: 62.5%;
+    font-family: 'Kanit', sans-serif;
+}
