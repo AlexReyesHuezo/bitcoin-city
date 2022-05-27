@@ -30,6 +30,7 @@
 }
 
 html {
+    min-width: 320px;
     font-size: 62.5%;
     font-family: 'Kanit', sans-serif;
     color: var(--white);
@@ -39,7 +40,6 @@ header {
     position: relative;
     width: 100%;
     height: 334px;
-    min-width: 320px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -103,4 +103,25 @@ header {
     height: 8px;
     margin-left: 10px;
     background-image: url('../assets/icons/down-arrow.svg');
+}
+
+main {
+    width: 100%;
+    height: auto;
+    background-color: var(--bitcoin-light);
+}
+
+.model__container {
+    width: 100%;
+    height: auto;
+    padding-top: 80px;
+    padding-bottom: 30px;
+    text-align: center;
+}
+
+.model__headline {
+    width: 90%;
+    min-width: 288px;
+    max-width: 900px;
+    margin: 0 auto;
 }
