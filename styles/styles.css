@@ -62,11 +62,12 @@ header {
 }
 
 .header__imagotype {
-  width: 140px;
-  height: 40px;
-  margin-top: 60px;
+  width: 150px;
+  height: 80px;
+  margin-top: 40px;
   display: flex;
   align-self: center;
+  justify-content: center;
 }
 
 .header__headline {
@@ -79,7 +80,7 @@ header {
 }
 
 .header__headline h1 {
-  font-size: 2.4rem;
+  font-size: 2.8rem;
   font-weight: 700;
   line-height: 2.6rem;
   font-family: 'Trirong', serif;
@@ -88,7 +89,7 @@ header {
 .header__headline p {
   margin-top: 25px;
   font-size: 1.4rem;
-  font-weight: 500;
+  font-weight: 300;
   line-height: 1.8rem;
 }
 
@@ -122,7 +123,7 @@ header {
 main {
   width: 100%;
   height: auto;
-  background-color: var(--bitcoin-light);
+  background-color: var(--white);
 }
 
 .model__container {
@@ -138,4 +139,29 @@ main {
   min-width: 288px;
   max-width: 900px;
   margin: 0 auto;
+  color: var(--black);
+}
+
+.model__background-image {
+  width: 200px;
+  height: 200px;
+  margin: 0 auto;
+  margin-bottom: 50px;
+  background: url('../assets/images/bitcoin.svg') center/cover no-repeat;
+}
+
+.model__headline h2 {
+  margin-bottom: 30px;
+  font-size: 2.4rem;
+  font-weight: 700;
+  line-height: 2.6rem;
+  font-family: 'Trirong', serif;
+}
+
+.model__headline p {
+  margin-bottom: 30px;
+  font-size: 1.4rem;
+  font-weight: 500;
+  line-height: 1.6rem;
+  color: #757575;
 }
